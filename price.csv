@@ -1,0 +1,6 @@
+import pandas as pd
+
+# Load dataset from CSV
+df = pd.read_csv("house_prices.csv")
+
+print(df.head())  # check first 5 rows
